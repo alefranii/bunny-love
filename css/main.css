@@ -4,23 +4,32 @@
     margin-right: auto;
     float: none !important;
   }
+  
+
   /*centrar*/
+  
   * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
+  
   body{
     font-family: Arial;
     background-color: #ecf7fb;
   }
+  
   .container{
     width: 80%;
     margin: 0 auto;
   }
+  
+
   /*grilla*/
+  
   .menu{
-    background-color: #25B0D3;
+    background-color: #0AC9D8;
+
   }
   .bunny, .love{
     font-family: "Baloo Paaji";
@@ -28,76 +37,96 @@
     font-size: 30px;
     margin:10px 3px;
   }
+  
   .bunny{
     color: white;
   }
+  
   .love{
     color: #ff7673;
   }
+  
   .iconmenu{
     display: none;
   }
+  
   .links{
     text-align: right;
   }
+  
   .links li{
     display: inline-block;
     margin: 25px 10px;
   }
+  
   .links a{
     text-decoration:none;
     color: white;
     font-size: 16px;
   }
+  
   /*titulo*/
+  
   .section1{
     background-image: url(../img/img-1.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
   }
+  
   .soft{
     font-family: "Baloo Paaji";
     color:#ff7673;
     font-size: 80px;
     padding: 50px 0 10px 0;
   }
+  
   .sub2{
     color:white;
     font-family: Arial;
     font-size: 15px;
     padding: 40px 0;
   }
+  
   .titlesoft{
     background-color: rgba(3, 127, 153, 0.8);
     text-align: center;
     padding-bottom: 40px;
     margin-bottom: 50px;
   }
-  /*4 conejos*/
+  
+  /*conejos*/
+  
   .section2{
     background-color: white;
     padding: 15px;
   }
+  
   .block{
     padding: 5px;
   }
-  .rabbit1, .rabbit2, .rabbit3, .rabbit4{
+  
+  .conejo1, .conejo2, .conejo3, .conejo4{
     background-size: 100%;
     background-repeat: no-repeat;
     height: 150px;
   }
-  .rabbit1{
+  
+  .conejo1{
     background-image: url(../img/img-1.jpg);
   }
-  .rabbit2{
+  
+  .conejo2{
     background-image: url(../img/img-2.jpg);
   }
-  .rabbit3{
+  
+  .conejo3{
     background-image: url(../img/img-3.jpg);
   }
-  .rabbit4{
+  
+  .conejo4{
     background-image: url(../img/img-4.jpg);
   }
+  
   .text1{
     background-color: #25B0D3;
     text-align: center;
@@ -107,12 +136,14 @@
     line-height: 200%;
     height: 270px;
   }
+  
   .text1 p{
     font-family: "Baloo Paaji";
     padding: 15px 0 30px 0;
     color: #ff7673;
     font-size: 20px;
   }
+  
   /*izquierda pantalla*/
   .section3{
     background-color: #25B0D3;
@@ -121,7 +152,7 @@
   .conejines{
     padding: 5px;
   }
-  .conejo1{
+  .rabbit1{
     background-image: url(../img/img-5.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -163,6 +194,8 @@
     margin:0;
     background-color: #ecf7fb;
   }
+  
+
   /*derecha pantalla*/
   input[type=text] {
     width: 100%;
@@ -170,9 +203,9 @@
     border: 2px solid #ccc;
     border-radius: 10px;
     font-size: 16px;
-    padding: 40px;
+    padding: 10px;
   }
-  .conejo2{
+  .rabbit2{
     background-image: url(../img/img-6.jpg);
     background-size: 100%;
     height: 280px;
@@ -189,7 +222,7 @@
     text-decoration: none;
     margin: 20px;
   }
-  .conejo3{
+  .rabbit3{
     background-image: url(../img/img-3.jpg);
     background-size: 100%;
     height: 250px;
@@ -218,11 +251,10 @@
 
 
 
-
-
   h1, p{
     margin:0;
   }
+  
   form{
     background-color: #ecf7fb;  
   }
@@ -261,7 +293,7 @@
     .col-8{
       width: 20%;
     }
-    .conejo1, .conejo2, .conejo3, .rabbit1, .rabbit2, .rabbit3, .rabbit4, .conejo1, .conejo2{
+    .rabbit1, .rabbit2, .rabbit3, .conejo1, .conejo2, .conejo3, .conejo4, .rabbit1, .rabbit2{
       height: 120px;
     }
     .subsection1, .subsection2{
@@ -270,7 +302,9 @@
 
   }
 
+  
   /* media */
+  
   @media
   (min-width: 320px) and (max-width: 479px){
 
